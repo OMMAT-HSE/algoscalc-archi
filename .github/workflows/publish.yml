@@ -20,8 +20,4 @@ jobs:
         uses: WoozyMasta/archimate-ci-image@4.9.2-1.0.3
         with:
           archiHtmlReportEnabled: true
-          archiJasperReportEnabled: true
-          archiJasperReportFormats: PDF,DOCX
-          archiCsvReportEnabled: true
-          archiExportModelEnabled: true
           githubToken: ${{ secrets.GITHUB_TOKEN }}
