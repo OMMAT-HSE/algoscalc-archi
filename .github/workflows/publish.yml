@@ -21,3 +21,14 @@ jobs:
         with:
           archiHtmlReportEnabled: true
           githubToken: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Add CNAME record to GitHub Pages
+        run: |
+          echo "archi.ommat.ru" > CNAME
+          git config --global user.email "datrefilov@edu.hse.ru"
+          git config --global user.name "Trefilov Dmitriy Aleksandrovich"
+          git add .
+          git commit -m "Add CNAME record"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
