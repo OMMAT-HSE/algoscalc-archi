@@ -21,3 +21,4 @@ jobs:
         with:
           archiHtmlReportEnabled: true
           githubToken: ${{ secrets.GITHUB_TOKEN }}
+          githubPagesDomain: ${{ vars.ARCHI_PAGES_DOMAIN }}
