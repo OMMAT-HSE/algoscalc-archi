@@ -24,7 +24,7 @@ jobs:
           
       - name: Add CNAME record to GitHub Pages
         run: |
-          echo "archi.ommat.ru" > CNAME
+          echo "archi.ommat.ru" > ./public/CNAME
           git config --global user.email "datrefilov@edu.hse.ru"
           git config --global user.name "Trefilov Dmitriy Aleksandrovich"
           git add .
