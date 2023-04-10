@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Приложения TO BE"
+    name="Приложения"
     id="id-a88193512b224f3ba719ac685e55ea42"
     viewpoint="application_usage">
   <children
@@ -858,34 +858,11 @@
           xsi:type="archimate:RealizationRelationship"
           href="RealizationRelationship_id-75519118119141818a8f394664914440.xml#id-75519118119141818a8f394664914440"/>
     </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-0549cd12943e4f419a9390f98e3469fb"
-        source="id-93381eebc7554a25b41216a76f084a5a"
-        target="id-bba12723948649e5aefcdd3cdd53d85d">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-c78bc29562514c01ae363632f2355ed8.xml#id-c78bc29562514c01ae363632f2355ed8"/>
-    </sourceConnections>
     <bounds
-        x="-12"
+        x="12"
         y="200"
-        width="147"
-        height="213"/>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-bba12723948649e5aefcdd3cdd53d85d"
-        targetConnections="id-0549cd12943e4f419a9390f98e3469fb"
-        fillColor="#ed333b">
-      <bounds
-          x="24"
-          y="36"
-          width="97"
-          height="47"/>
-      <archimateElement
-          xsi:type="archimate:ApplicationComponent"
-          href="ApplicationComponent_id-bb72658ceb8343b18bbe7195eab6eaae.xml#id-bb72658ceb8343b18bbe7195eab6eaae"/>
-    </children>
+        width="123"
+        height="173"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-dfe7d0fcd0964d0ea1e8caa37f81537d"
@@ -893,7 +870,7 @@
         fillColor="#ed333b">
       <bounds
           x="24"
-          y="96"
+          y="48"
           width="85"
           height="47"/>
       <archimateElement
@@ -907,7 +884,7 @@
         fillColor="#ed333b">
       <bounds
           x="24"
-          y="156"
+          y="108"
           width="85"
           height="47"/>
       <archimateElement
