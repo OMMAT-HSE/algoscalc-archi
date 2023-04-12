@@ -22,4 +22,4 @@ jobs:
           archiHtmlReportEnabled: true
           githubToken: ${{ secrets.GITHUB_TOKEN }}
           githubPagesDomain: ${{ vars.ARCHI_PAGES_DOMAIN }}
-          enable_https: false
+          #enable_https: false
