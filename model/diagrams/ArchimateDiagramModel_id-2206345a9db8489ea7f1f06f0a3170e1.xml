@@ -186,8 +186,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-872be851e6354230b7e2172ea1a525e2"
-      targetConnections="id-89ec8fdb8f4c45e2a33e7b733e831916 id-feeff0b4ae2f4c9fa4b9fd2ba8d7a317"
-      type="1">
+      targetConnections="id-89ec8fdb8f4c45e2a33e7b733e831916 id-feeff0b4ae2f4c9fa4b9fd2ba8d7a317">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-8c18361622384366b5803bd4dd66ae38"
@@ -868,7 +867,7 @@
         x="240"
         y="269"
         width="84"
-        height="92"/>
+        height="42"/>
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_id-982aa3fb56a846a4ae9688878c08a464.xml#id-982aa3fb56a846a4ae9688878c08a464"/>
