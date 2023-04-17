@@ -1,4 +1,5 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Онлайн-калькулятор"
-    id="id-fa2441dc5d984d278b557000dcfad4ad"/>
+    name="Программный продукт"
+    id="id-fa2441dc5d984d278b557000dcfad4ad"
+    documentation="Программный продукт, который разрбатывается  поддерживается в рамках проектов. Студенты участвуют в реализации проекта посредством выполнения заданий."/>

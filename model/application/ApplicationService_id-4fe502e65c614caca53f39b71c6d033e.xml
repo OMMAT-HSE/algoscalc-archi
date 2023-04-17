@@ -1,4 +1,5 @@
 <archimate:ApplicationService
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Онлайн-калькулятор"
-    id="id-4fe502e65c614caca53f39b71c6d033e"/>
+    name="Web сервис продукта"
+    id="id-4fe502e65c614caca53f39b71c6d033e"
+    documentation="Web сервис, который реализует разрабатываемый программный продукт"/>
